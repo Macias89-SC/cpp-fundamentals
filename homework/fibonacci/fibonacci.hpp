@@ -1,8 +1,7 @@
 #pragma once
 
 int fibonacci_iterative(int sequence) {
-    int a;
-    int b;
+    int a,b;
     if(sequence ==0 ) return 0;
     a = 0;
     b = 1;
