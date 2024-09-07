@@ -12,8 +12,8 @@ std::vector<int> generateSequence(int count, int step) {
     std::vector<int> MyVector (VectorDimension);
 
     if (count > 0 ){
-        for ( size_t i = 0; i < MyVector.size() ; i++  ){
-            MyVector[i] =  step * (i +1);
+        for ( int i = 0; i < MyVector.size() ; i++  ){
+            MyVector[i] =  step * (i + 1);
         }
     }
     return MyVector;
