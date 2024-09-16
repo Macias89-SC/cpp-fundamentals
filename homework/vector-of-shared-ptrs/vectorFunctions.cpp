@@ -1,7 +1,6 @@
 #include <iostream>
 #include "vectorFunctions.hpp"
 
-
 std::vector<std::shared_ptr<int>> generate (const int count) {
     std::vector<std::shared_ptr<int>> result;
     result.reserve(count);
