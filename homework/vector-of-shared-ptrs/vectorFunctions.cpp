@@ -41,3 +41,4 @@ void sub10 (std::vector<std::shared_ptr<int>>& vector) {
         sub10(element.get());
     }
 }
+
